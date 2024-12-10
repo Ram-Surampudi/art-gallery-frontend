@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+h3{
+	text-decoration: none;
+}
+
+.search-div{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.home-page-img{
+    /* background-image: url('https://ld-wp73.template-help.com/wordpress/prod_13996/v3/wp-content/uploads/2022/02/home-bg.jpg'); */
+    /* background-image: url('https://ld-wp73.template-help.com/wordpress/prod_26776/v4/wp-content/uploads/2019/10/slider_01.jpg'); */
+    background-image: url('../imgs//homedown.png');
+    /* background-image: url('https://theme430-art.myshopify.com/cdn/shop/files/Image_with_text_overlay_c8661014-befa-4520-82e6-1a3f9a9a215d_2048x800_crop_top.png?v=1613761495'); */
+    height: 800px;
+    background-size: cover;
+    margin-top: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* .home-page-img::before{
+    content: '';
+    display: block;
+    position: relative;
+    width: 100%;
+    bottom:0px;
+    height: 50%;
+    background-image: linear-gradient(#222, rgba(151, 151, 151, 0));
+} */
+
+/* .home-page-img-back{
+    position: relative;
+    width: 100%;
+    height: 35%;
+    bottom:0px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgb(126, 126, 126));
+} */
+
+
+
+.arts-shop-sub-div{
+    color: #000;
+    text-transform: capitalize;
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    font-family: "Poppins", sans-serif; 
+    overflow: hidden;
+}
+
+.art-div{
+    /* border: 5px solid red; */
+    
+    margin: 2rem;
+    max-height: 500px;
+    max-width: 400px;
+    background-color: #D6C0B3;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.div-cat-op{
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.arts-image{
+    height: 300px;
+    width: 400px;
+    margin-inline: 0px;
+}
+
+.artist-name-h1{
+    position: relative;
+    top:-240px;
+    text-align: center;
+    color: aliceblue;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+}
+
+.general-art{
+    margin:5px;
+    margin-inline: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.heading-h3{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+}
+
+.content-of-img{
+    max-width: 50%;
+    color: rgb(204, 216, 216);
+    text-align: center;
+    text-transform: capitalize;
+    margin: 70px;
+}
+
+/* .cat-img-black{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    top:-150px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 10px 10px;
+} */
+
+.art-div:hover{
+	transform: scale(1.05);
+	  transition: transform 0.5s;
+}
+
+.bottom-cv{
+        /* background-image: url('../imgs//homedown.png'); */
+        background-image: url('https://theme430-art.myshopify.com/cdn/shop/files/Image_with_text_overlay_c8661014-befa-4520-82e6-1a3f9a9a215d_2048x800_crop_top.png?v=1613761495');
+
+    /* background-image: url('https://theme430-art.myshopify.com/cdn/shop/files/Image_with_text_overlay_c8661014-befa-4520-82e6-1a3f9a9a215d_2048x800_crop_top.png?v=1613761495'); */
+}
+.mybtn{
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.mybtn:hover {
+    /* background-color: #DCE4C9; */
+    background-color: #006BB8;
+}
+
+.namingof{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin-top: 40px;
+}
+
+.wrapdivcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.category-container-low{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 90%;
+}

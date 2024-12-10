@@ -1,0 +1,29 @@
+.loading{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    left: 0;
+    width : 100vw;
+    height: 100vh;
+    z-index: 5;
+  }
+  
+  .loading-animation{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    border-top: 5px gray solid;
+    animation: infinite spin 0.7s;
+    z-index: 10;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  #myloadingelement{
+    display: none;
+  }

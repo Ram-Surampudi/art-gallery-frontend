@@ -1,0 +1,54 @@
+
+.art-page-image{
+    height: 60vh;
+    width: 70vh;
+    border-radius: 20px;
+}
+
+.side-card-container{
+    margin-top:40px ;
+    margin-left: 100px;
+}
+
+
+.card-container-overall {
+    margin-top:150px;
+    margin-bottom:100px;
+}
+
+
+.card-heading{
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+}
+
+.card-cost-btn{
+    margin: 10px;
+    font-size: larger;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.card-artist-name{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+
+.card-artist-description{
+    margin: 10px;
+    font-size: 29px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.add-to-cart-button{
+    margin: 20px;
+    margin-right: 15px;
+}
+
+.spacebetween{
+    margin-bottom: -80px;
+    text-align: center;
+}

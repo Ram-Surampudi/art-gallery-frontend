@@ -1,0 +1,14 @@
+
+#top{
+  background-color: aliceblue;
+}
+
+.backgroundimage{
+  background-image: url('./imgs/home.jpg');
+  background-size: cover;
+}
+
+.lastbgimg{
+  background-image: url('./imgs/home3.jpg');
+  background-size: cover;
+}
