@@ -23,7 +23,7 @@ import { Toaster } from 'react-hot-toast';
 import Loading from './auth/Loading.jsx';
 
 export const Arr = createContext();
-export const URL = "http://localhost:8081";
+export const URL = "https://online-artgallery-backend-jfsd.onrender.com";
 
 
 function App() {
