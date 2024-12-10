@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import '../css/AdminHome.css';
 import axios from 'axios';
 import { useNavigate  } from 'react-router-dom';
+import { URL } from '../App';
 
 const Category = () => {
 
@@ -37,7 +38,7 @@ const Category = () => {
 
   const renderCategories = async () =>{
     try{
-      var response = await axios.get('http://localhost:8081/category');
+      var response = await axios.get(`${URL}/category`);
       setcategory(response.data);
       console.log(response.data);
       
