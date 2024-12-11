@@ -17,6 +17,7 @@ import Cart from './user/Cart'
 import Art from './user/Art'
 import CategoryArt from './user/CategoryArt.jsx';
 import Arts from './admin/Arts.jsx';
+import AdminCat from './admin/AdminCat.jsx';
 import Buy from './user/Buy.jsx';
 import CancelOrder from './user/CancelOrder.jsx';
 import { Toaster } from 'react-hot-toast';
@@ -65,6 +66,7 @@ function App() {
           <Route path='/admin' element={<AdminHome />} />
           <Route path='/addart' element={<AddArt />} />
           <Route path='/arts' element={<Arts />} />
+          <Route path='/admin/category/:cat' element={<AdminCat />} />
           <Route path='/addart/:Data' element={<AddArt />} />
           <Route path='/addcategory' element={<AddCategory />} />
           <Route path='/update/:id' element={<UpdateArt />} />

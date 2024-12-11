@@ -23,7 +23,7 @@ const AddArt = () => {
   const closePopUp = () => setpopup(false);
 
   useEffect(()=>{
-    setArr(['admin', 'addart', 'addcategory', 'logout']);
+    setArr(['admin', 'arts' , 'addart', 'addcategory', 'logout']);
     },[]);
 
 
@@ -67,7 +67,7 @@ const AddArt = () => {
             <button className='btn cancel-button' onClick={closePopUp} >Cancel</button>
             <button className='btn btn-danger cart-button' onClick={deleteArt} >Remove</button>
         </div>
-      <h1 className='login-h1' style={{textAlign:'left', color:'#000'}}>Add Art</h1>
+      <h1 className='login-h1' style={{textAlign:'left', color:'#000'}}>{Data ? "Update Art" : "Add Art"}</h1>
       <form className='form-class-addhotel' onSubmit={submitData}>
             <input type='text' className='addhotel-input' name='name' placeholder='Art Name' onChange={set} value={data?.name ? data.name : ''} required />
             <input type='text' className='addhotel-input' name='artistName' placeholder='Artist Name' onChange={set} value={data?.artistName ? data.artistName : ''} required />
@@ -76,7 +76,6 @@ const AddArt = () => {
             <input type='text' className='addhotel-input' name='description' placeholder='description' onChange={set} value={data?.description ? data.description : '' } required />
           <label style={{display:'block', marginLeft:'20px'}}>Category picture </label>
           <input type='file' className='addhotel-input' name='img' onChange={e => setimg(e.target.files[0])} /><br></br>
-
           {Data ?
           <div>
             <input type='submit' className='btn btn-warning mr-3' value={'UPDATE ART'} style={{margin:'10px', fontSize:'20px'}} />

@@ -16,7 +16,7 @@ const AdminHome = () => {
   const [categorys, setcategory] = useState([]);
   const [search , setSearch] = useState('');
 
-  const nagivate = useNavigate();
+  const navigate = useNavigate();
   const [popup, setpopup] = useState(false);
 
   const closePopUp = () => setpopup(false);
@@ -67,7 +67,7 @@ const AdminHome = () => {
       </div>
       <div className='category-container-low'>
       {categorys?.filter(item => {return search === '' ? item : item?.category.toLowerCase().includes(search)}).map(item=>(
-        <div class='art-div div-cat-op'>
+        <div class='art-div div-cat-op' onClick={()=> navigate('/admin/category/' + item?.category)}>
         <img class='arts-image' src={item?.url} alt='not found url' />
               <div class="cat-img-black"></div>
             <h3 style={{"text-decoration" : "none"}} class='artist-name-h1'>{item?.category}</h3>
